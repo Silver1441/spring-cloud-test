@@ -6,10 +6,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Silver1441/spring-cloud-test-config.git
-
-  profiles:
-     active: native
+          uri: https://github.com/Silver1441/spring-cloud-test-config
 
 server:
   port: ${CONFIG_PORT:8888}
