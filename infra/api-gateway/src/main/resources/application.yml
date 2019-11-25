@@ -7,6 +7,8 @@ endpoints:
     sensitive: true
 
 zuul:
-  routes:
-    workspaces-api: /workspaces/**
-    employees-api: /employees/**
+ routes:
+  workspaces-api:
+   path: /workspaces-service/**
+  employees-api:
+   path: /employees-service/**

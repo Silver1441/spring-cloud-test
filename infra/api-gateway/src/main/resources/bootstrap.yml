@@ -3,5 +3,6 @@ spring:
     name: sample-api-gateway
   cloud:
     config:
+      name: api-gateway-server
       uri: http://${CONFIG_HOST:localhost}:8888
       failFast: true
