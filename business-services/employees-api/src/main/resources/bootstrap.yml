@@ -6,3 +6,6 @@ spring:
       name:  employees-server
       uri: http://${CONFIG_HOST:localhost}:${CONFIG_PORT:8888}
       failFast: true
+feign:
+  hystrix:
+    enabled: true

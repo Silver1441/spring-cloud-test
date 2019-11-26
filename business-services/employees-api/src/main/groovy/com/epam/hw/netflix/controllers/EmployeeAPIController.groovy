@@ -1,6 +1,8 @@
 package com.epam.hw.netflix.controllers
 
 import com.epam.hw.netflix.api.WorkspaceAPI
+import com.epam.hw.netflix.domain.OSFamily
+import com.epam.hw.netflix.domain.Workspace
 import com.epam.hw.netflix.services.EmployeeService
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.web.bind.annotation.PathVariable
